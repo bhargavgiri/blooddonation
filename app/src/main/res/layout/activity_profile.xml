@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#232F34"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/setting"
+            android:text="Edit Profile"
+            android:textSize="25dp"
+            android:textColor="#fff"
+            android:background="@drawable/createbutton"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fname1"
+            android:background="@drawable/edittexttoo"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lname"
+            android:textSize="20dp"
+            android:background="@drawable/edittexttoo"
+            android:layout_below="@id/fname1"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pincode"
+            android:textSize="20dp"
+            android:background="@drawable/edittexttoo"
+            android:layout_below="@id/lname"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            ></TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/weight1"
+            android:textSize="20dp"
+            android:layout_below="@id/pincode"
+            android:background="@drawable/edittexttoo"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/number2"
+            android:textSize="20dp"
+            android:background="@drawable/edittexttoo"
+            android:layout_below="@id/weight1"
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            ></TextView>
+
+
+    </RelativeLayout>
+

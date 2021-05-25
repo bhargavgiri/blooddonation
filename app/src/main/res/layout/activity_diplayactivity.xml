@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Diplayactivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:elevation="10dp"
+        android:background="@drawable/halfdiplay"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/mficon"
+        android:layout_marginTop="150dp"
+        android:elevation="10dp"
+        app:civ_circle_background_color="#fff"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"
+        />
+
+    <EditText
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="320dp"
+        android:hint=" First Name"
+        android:drawableLeft="@drawable/user"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="10dp"
+        android:elevation="10dp"
+        android:id="@+id/fname"
+        android:background="@drawable/edittextfile"
+        />
+
+    <EditText
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="380dp"
+        android:hint="  Last Name"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/user"
+        android:inputType="text"
+        android:elevation="10dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/last"
+        android:background="@drawable/edittextfile"
+        />
+
+    <EditText
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edittextfile"
+        android:hint="Pincode"
+        android:paddingLeft="10dp"
+        android:inputType="number"
+        android:elevation="10dp"
+        android:id="@+id/pincod"
+        android:drawableLeft="@drawable/pin"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="440dp"
+        />
+
+    <EditText
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:hint=" Weight  Up to 50kg"
+        android:id="@+id/weight"
+        android:textAllCaps="false"
+        android:paddingLeft="10dp"
+        android:inputType="number"
+        android:elevation="10dp"
+        android:drawableLeft="@drawable/weidght"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/edittextfile"
+        android:layout_marginTop="500dp"
+        />
+
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="570dp"
+        android:id="@+id/bgrouppp"
+        android:elevation="120dp"
+        android:background="@drawable/edittextfile"
+        />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonthree"
+        android:text="Next"
+        android:id="@+id/next"
+        android:textColor="#ffff"
+        android:textAllCaps="false"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"
+        android:elevation="120dp"
+         android:layout_centerInParent="true"
+       android:layout_alignParentBottom="true"
+        />
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="570dp"
+        android:id="@+id/age"
+
+        android:elevation="120dp"
+        android:layout_marginLeft="33dp"
+        android:background="@drawable/edittextfile"
+        />
+
+</RelativeLayout>

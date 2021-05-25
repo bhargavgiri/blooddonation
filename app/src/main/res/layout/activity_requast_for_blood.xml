@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequastForBlood">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Patient Name"
+        android:drawableLeft="@drawable/peshnt"
+        android:inputType="text"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="280dp"
+        android:textAllCaps="false"
+          android:id="@+id/pation"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Phone no"
+        android:inputType="number"
+        android:drawableLeft="@drawable/call"
+        android:paddingLeft="10dp"
+        android:id="@+id/call3"
+        android:layout_marginTop="330dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" City Name"
+        android:inputType="text"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/city"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="380dp"
+        android:id="@+id/city3"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Hospital Adrress"
+        android:textAllCaps="false"
+        android:layout_marginTop="440dp"
+        android:drawableLeft="@drawable/hodpita"
+          android:paddingLeft="10dp"
+        android:id="@+id/h_address"
+
+        />
+    <Spinner
+        android:layout_width="150dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="500dp"
+        android:paddingLeft="10dp"
+        android:id="@+id/bgroup"
+        android:background="@drawable/edittextfile"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:id="@+id/next1"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonthree"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        />
+
+</RelativeLayout>

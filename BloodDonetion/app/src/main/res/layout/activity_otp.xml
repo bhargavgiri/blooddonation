@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtpActivity"
+    android:background="#5E1859">
+
+    <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:id="@+id/ccp"
+        android:background="@drawable/edittexttoo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="390dp"
+        />
+
+    <EditText
+        android:id="@+id/reg_phone"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:inputType="number"
+        android:layout_marginTop="390dp"
+         android:drawableLeft="@drawable/call"
+        android:hint="Phone Number"
+        android:background="@drawable/edittexttoo"
+        android:padding="10dp"
+
+         />
+
+    <EditText
+        android:id="@+id/reg_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="-58dp"
+
+        android:ems="10"
+        android:background="@drawable/edittexttoo"
+        android:hint="OTP"
+        android:inputType="number"
+        android:padding="10dp"
+        android:textColor="#000"
+         />
+
+    <Button
+        android:id="@+id/reg_phone_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="75dp"
+        android:background="@drawable/buttontoo"
+        android:text="sendotp"
+        android:textColor="#Fff"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/errorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="198dp"
+        android:text="There was some error"
+        android:textColor="#EB0808"
+        android:visibility="invisible" />
+
+
+</RelativeLayout>

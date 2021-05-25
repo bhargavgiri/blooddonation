@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MaleFemalactivity"
+    android:background="@drawable/recdonblood">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FF0000"
+        android:textSize="200dp"
+        android:id="@+id/donateButton"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00FF0000"
+        android:layout_below="@id/donateButton"
+        android:layout_marginTop="200dp"
+        android:textSize="200dp"
+        android:id="@+id/recieveButton"/>
+
+</RelativeLayout>

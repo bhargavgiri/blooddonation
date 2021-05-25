@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Send Message"
+        android:id="@+id/notification"/>
+    <item
+        android:title="Call"
+        android:id="@+id/call"/>
+    <item
+        android:title="Track"
+        android:id="@+id/track"/>
+</menu>

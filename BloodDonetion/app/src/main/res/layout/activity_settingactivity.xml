@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   tools:context=".Settingactivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/image1"
+        android:background="@drawable/halfdiplay"
+        />
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/user"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:civ_circle_background_color="#FCF9F9"
+        android:src="@drawable/usersone"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"
+        />
+
+    <EditText
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="320dp"
+        android:hint="First Name"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:paddingLeft="20dp"
+        android:id="@+id/name2"
+        android:background="@drawable/edittexttoo"
+        />
+
+    <EditText
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="380dp"
+        android:hint="Last Name"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/lastn"
+        android:background="@drawable/edittexttoo"
+        />
+
+    <EditText
+        android:layout_width="390dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edittexttoo"
+        android:hint="Pincod"
+        android:paddingLeft="10dp"
+        android:inputType="number"
+        android:id="@+id/pincod2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="440dp"
+        />
+
+    <EditText
+        android:layout_width="390dp"
+
+        android:layout_height="40dp"
+        android:hint="Weight  Up to 50kg"
+        android:id="@+id/weight6"
+        android:textAllCaps="false"
+        android:paddingLeft="10dp"
+        android:inputType="text"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/edittexttoo"
+        android:layout_marginTop="500dp"
+          />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Chenges"
+            android:id="@+id/save"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/buttonthree"
+            />
+    <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:background="@drawable/edittexttoo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="560dp"
+        />
+
+    <EditText
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:id="@+id/call2"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="560dp"
+        android:background="@drawable/edittexttoo"
+        android:hint=" Phone No"
+        android:inputType="number"
+        android:drawableLeft="@drawable/call"
+        android:paddingLeft="10dp"
+        android:textAllCaps="true" />
+
+
+
+</RelativeLayout>
